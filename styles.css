@@ -10,9 +10,9 @@
   --card: #111111;
   --icon: #bdbdbd;
   --shadow: 0 30px 80px rgba(0, 0, 0, 0.45);
-  --radius: 22px;
-  --radius-lg: 34px;
-  --nav: 92px;
+  --radius: 24px;
+  --radius-lg: 36px;
+  --nav: 104px;
   --grid: rgba(255, 255, 255, 0.035);
 }
 
@@ -38,14 +38,14 @@ html[data-theme='light'] {
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 108px;
+  scroll-padding-top: 120px;
 }
 
 body {
   font-family: Inter, ui-sans-serif, system-ui, sans-serif;
   background: var(--bg);
   color: var(--text);
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.5;
 }
 
@@ -64,7 +64,7 @@ button,
 }
 
 .wrap {
-  width: min(1280px, calc(100% - 48px));
+  width: min(1520px, calc(100% - 56px));
   margin: 0 auto;
 }
 
@@ -92,15 +92,15 @@ button,
   gap: 12px;
   font-family: Syne, Inter, sans-serif;
   font-weight: 800;
-  font-size: 22px;
+  font-size: 24px;
   letter-spacing: 0.04em;
   text-transform: uppercase;
 }
 
 .logo {
-  width: 42px;
-  height: 42px;
-  border-radius: 12px;
+  width: 48px;
+  height: 48px;
+  border-radius: 14px;
   background: var(--yellow);
   display: grid;
   place-items: center;
@@ -110,9 +110,9 @@ button,
 .nav-links {
   display: flex;
   align-items: center;
-  gap: 32px;
+  gap: 36px;
   color: var(--muted);
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 600;
 }
 
@@ -191,11 +191,11 @@ button,
   align-items: center;
   justify-content: center;
   gap: 8px;
-  height: 58px;
-  padding: 0 22px;
+  height: 64px;
+  padding: 0 24px;
   border-radius: 999px;
   border: 0;
-  font-size: 17px;
+  font-size: 18px;
   font-weight: 700;
   cursor: pointer;
 }
@@ -216,8 +216,8 @@ button,
 }
 
 .btn-lg {
-  height: 64px;
-  padding: 0 28px;
+  height: 72px;
+  padding: 0 32px;
 }
 
 .hero {
@@ -245,7 +245,7 @@ button,
 .hero-grid {
   position: relative;
   display: grid;
-  grid-template-columns: minmax(0, 1.05fr) minmax(340px, 0.95fr);
+  grid-template-columns: minmax(0, 1.05fr) minmax(380px, 0.95fr);
   gap: 36px;
   align-items: center;
 }
@@ -273,10 +273,10 @@ button,
 
 h1 {
   font-family: Syne, Inter, sans-serif;
-  font-size: clamp(50px, 6.6vw, 90px);
+  font-size: clamp(56px, 7.2vw, 102px);
   line-height: 0.92;
   letter-spacing: -0.055em;
-  margin-bottom: 22px;
+  margin-bottom: 24px;
 }
 
 h1 span {
@@ -289,10 +289,10 @@ h1 .accent {
 }
 
 .lead {
-  font-size: 21px;
+  font-size: 22px;
   color: var(--muted);
-  max-width: 600px;
-  margin-bottom: 32px;
+  max-width: 680px;
+  margin-bottom: 36px;
 }
 
 .hero-actions {
@@ -318,9 +318,9 @@ h1 .accent {
   display: inline-flex;
   align-items: center;
   gap: 14px;
-  min-width: 210px;
-  height: 66px;
-  padding: 10px 22px 10px 16px;
+  min-width: 230px;
+  height: 72px;
+  padding: 12px 24px 12px 18px;
   border-radius: 16px;
   background: #000;
   color: #fff;
@@ -367,7 +367,7 @@ html[data-theme='light'] .store-btn {
 .stats strong {
   display: block;
   font-family: Syne, Inter, sans-serif;
-  font-size: 36px;
+  font-size: 40px;
   letter-spacing: -0.04em;
 }
 
@@ -379,15 +379,15 @@ html[data-theme='light'] .store-btn {
 
 .phones {
   position: relative;
-  min-height: 660px;
+  min-height: 720px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .phone {
-  width: 268px;
-  height: 570px;
+  width: 300px;
+  height: 638px;
   border-radius: 40px;
   background: #111;
   padding: 10px;
@@ -585,7 +585,7 @@ html[data-theme='light'] .store-btn {
   border-bottom: 1px solid var(--border);
   padding: 18px 0;
   color: var(--muted);
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 600;
 }
 
@@ -612,7 +612,7 @@ html[data-theme='light'] .store-btn {
 }
 
 .section {
-  padding: 108px 0;
+  padding: 120px 0;
 }
 
 .eyebrow {
@@ -626,7 +626,7 @@ html[data-theme='light'] .store-btn {
 
 .section h2 {
   font-family: Syne, Inter, sans-serif;
-  font-size: clamp(40px, 5.4vw, 64px);
+  font-size: clamp(44px, 5.8vw, 72px);
   letter-spacing: -0.045em;
   line-height: 1;
   margin-bottom: 16px;
@@ -634,9 +634,9 @@ html[data-theme='light'] .store-btn {
 
 .section-lead {
   color: var(--muted);
-  max-width: 640px;
+  max-width: 720px;
   margin-bottom: 44px;
-  font-size: 19px;
+  font-size: 21px;
 }
 
 .steps,
@@ -663,7 +663,7 @@ html[data-theme='light'] .store-btn {
 
 .step-num {
   font-family: Syne, Inter, sans-serif;
-  font-size: 52px;
+  font-size: 58px;
   line-height: 1;
   color: var(--yellow);
   margin-bottom: 22px;
@@ -674,7 +674,7 @@ html[data-theme='light'] .store-btn {
 .feature h3,
 .role h3,
 .vehicle h3 {
-  font-size: 24px;
+  font-size: 26px;
   margin-bottom: 10px;
   letter-spacing: -0.03em;
 }
@@ -683,7 +683,7 @@ html[data-theme='light'] .store-btn {
 .feature p,
 .role p {
   color: var(--muted);
-  font-size: 17px;
+  font-size: 18px;
 }
 
 .vehicles {
@@ -730,14 +730,14 @@ html[data-theme='light'] .store-btn {
 
 .role h3 {
   font-family: Syne, Inter, sans-serif;
-  font-size: 40px;
+  font-size: 44px;
 }
 
 .role ul {
   margin-inline-start: 22px;
   margin-top: 22px;
   color: var(--muted);
-  font-size: 17px;
+  font-size: 18px;
 }
 
 .features {
@@ -753,7 +753,7 @@ html[data-theme='light'] .store-btn {
   background: transparent;
   border: 0;
   color: var(--text);
-  font-size: 19px;
+  font-size: 21px;
   font-weight: 700;
   text-align: start;
   cursor: pointer;
@@ -766,7 +766,7 @@ html[data-theme='light'] .store-btn {
   display: none;
   color: var(--muted);
   margin-top: 12px;
-  font-size: 17px;
+  font-size: 18px;
 }
 
 .faq-item.open p {
@@ -891,7 +891,7 @@ html[dir='rtl'] .cta-band h2 {
 }
 
 html[dir='rtl'] h1 {
-  font-size: clamp(42px, 6.2vw, 72px);
+  font-size: clamp(48px, 6.8vw, 84px);
   line-height: 1.18;
 }
 
