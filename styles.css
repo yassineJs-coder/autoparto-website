@@ -17,17 +17,17 @@
 }
 
 html[data-theme='light'] {
-  --yellow-soft: #fff9e6;
+  --yellow-soft: #ffe9b0;
   --splash: #ffe1a3;
-  --text: #111111;
-  --muted: #666666;
-  --bg: #ffffff;
-  --surface: #f5f5f5;
-  --border: #ececec;
-  --card: #ffffff;
-  --icon: #666666;
-  --shadow: 0 18px 50px rgba(0, 0, 0, 0.08);
-  --grid: rgba(0, 0, 0, 0.04);
+  --text: #1a160f;
+  --muted: #6f675c;
+  --bg: #f7f1e6;
+  --surface: #efe6d4;
+  --border: #e4d8c2;
+  --card: #fffcf6;
+  --icon: #6f675c;
+  --shadow: 0 24px 60px rgba(70, 50, 10, 0.12);
+  --grid: rgba(90, 60, 0, 0.07);
 }
 
 * {
@@ -924,4 +924,56 @@ html[dir='rtl'] .ticker-track {
   to {
     transform: translateX(50%);
   }
+}
+
+html[data-theme='light'] .nav {
+  background: color-mix(in srgb, var(--bg) 88%, #fff);
+}
+
+html[data-theme='light'] .hero {
+  background:
+    radial-gradient(circle at 78% 8%, rgba(255, 184, 0, 0.38) 0%, transparent 44%),
+    radial-gradient(circle at 8% 88%, rgba(255, 225, 163, 0.75) 0%, transparent 46%),
+    var(--bg);
+}
+
+html[data-theme='light'] .kicker {
+  background: var(--yellow-soft);
+  border-color: color-mix(in srgb, var(--yellow) 60%, #fff);
+}
+
+html[data-theme='light'] .icon-btn,
+html[data-theme='light'] .lang-btn {
+  background: var(--card);
+  box-shadow: 0 1px 0 rgba(90, 60, 0, 0.08);
+}
+
+html[data-theme='light'] .btn-ghost {
+  background: var(--card);
+  border-color: #1a160f;
+}
+
+html[data-theme='light'] .store-btn {
+  border: 0;
+  box-shadow: 0 12px 28px rgba(26, 22, 15, 0.18);
+}
+
+html[data-theme='light'] .phone {
+  box-shadow: 0 30px 70px rgba(70, 50, 10, 0.22);
+}
+
+html[data-theme='light'] .ticker {
+  background: var(--surface);
+}
+
+html[data-theme='light'] .step,
+html[data-theme='light'] .feature,
+html[data-theme='light'] .role,
+html[data-theme='light'] .vehicle,
+html[data-theme='light'] .faq-item {
+  box-shadow: var(--shadow);
+}
+
+html[data-theme='light'] .cta-band {
+  box-shadow: 0 24px 50px rgba(255, 184, 0, 0.28);
 }
