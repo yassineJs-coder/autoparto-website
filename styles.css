@@ -300,19 +300,13 @@ h1 .accent {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 }
 
-.hero-cta,
 .store-btns {
   display: flex;
   flex-wrap: wrap;
   gap: 12px;
-  margin-bottom: 28px;
-}
-
-.store-btns {
-  margin-bottom: 0;
 }
 
 .store-btn {
