@@ -10,22 +10,20 @@ const COPY = {
     'nav.features': 'Features',
     'nav.faq': 'FAQ',
     'nav.cta': 'Get the app',
-    'hero.kicker': 'Now in Morocco',
-    'hero.title': 'Find the part. Nearby stores. Real offers.',
-    'hero.t1': 'Find the part.',
-    'hero.t2': 'Nearby stores.',
-    'hero.t3': 'Real offers.',
+    'hero.kicker': 'New · used · rare',
+    'hero.title': 'Find any part. Anywhere. Fast.',
+    'hero.t1': 'Find any part.',
+    'hero.t2': 'Anywhere',
+    'hero.t3': 'Fast.',
     'hero.lead':
-      'Post a request with photos. Sellers nearby answer in MAD. You chat, agree, and both confirm when the part is in your hands.',
+      'AutoParTo connects buyers and verified sellers to source vehicle spare parts instantly, anywhere in the world. New, used, rare — all in one place.',
     'hero.cta': 'Download App',
     'hero.secondary': 'How it works →',
     'hero.note': 'Available on iPhone and Android.',
     'stats.s1v': 'Morocco',
     'stats.s1l': 'Marketplace',
-    'stats.s2v': 'MAD',
-    'stats.s2l': 'Every price',
-    'stats.s3v': 'EN · FR · AR',
-    'stats.s3l': 'Languages',
+    'stats.s2l': 'Live requests',
+    'stats.s3l': 'Verified sellers',
     'ticker.c1': 'Photos on every request',
     'ticker.c2': 'Chat on the deal',
     'ticker.c3': 'Dual confirmation',
@@ -111,22 +109,20 @@ const COPY = {
     'nav.features': 'Fonctions',
     'nav.faq': 'FAQ',
     'nav.cta': "L'app",
-    'hero.kicker': 'Maintenant au Maroc',
-    'hero.title': 'Trouve la piece. Magasins proches. Vraies offres.',
-    'hero.t1': 'Trouve la piece.',
-    'hero.t2': 'Magasins proches.',
-    'hero.t3': 'Vraies offres.',
+    'hero.kicker': 'Neuf · occasion · rare',
+    'hero.title': 'Toute pièce. Partout. Rapidement.',
+    'hero.t1': 'Toute pièce.',
+    'hero.t2': 'Partout.',
+    'hero.t3': 'Rapidement.',
     'hero.lead':
-      'Publie une demande avec des photos. Les magasins proches repondent en MAD. Vous discutez, vous tombez d accord, puis vous confirmez tous les deux.',
+      'AutoParTo relie acheteurs et vendeurs vérifiés pour trouver des pièces auto, partout dans le monde, tout de suite. Neuves, d\'occasion ou rares — tout au même endroit.',
     'hero.cta': "Telecharger l'app",
     'hero.secondary': 'Comment ca marche →',
     'hero.note': 'Dispo sur iPhone et Android.',
     'stats.s1v': 'Maroc',
     'stats.s1l': 'Marketplace',
-    'stats.s2v': 'MAD',
-    'stats.s2l': 'Chaque prix',
-    'stats.s3v': 'EN · FR · AR',
-    'stats.s3l': 'Langues',
+    'stats.s2l': 'Demandes en direct',
+    'stats.s3l': 'Vendeurs vérifiés',
     'ticker.c1': 'Photos sur chaque demande',
     'ticker.c2': 'Chat sur l offre',
     'ticker.c3': 'Double confirmation',
@@ -212,22 +208,20 @@ const COPY = {
     'nav.features': 'المزايا',
     'nav.faq': 'أسئلة',
     'nav.cta': 'حمّل التطبيق',
-    'hero.kicker': 'الآن في المغرب',
-    'hero.title': 'اعثر على القطعة. متاجر قريبة. عروض حقيقية.',
-    'hero.t1': 'اعثر على القطعة.',
-    'hero.t2': 'متاجر قريبة.',
-    'hero.t3': 'عروض حقيقية.',
+    'hero.kicker': 'جديدة · مستعملة · نادرة',
+    'hero.title': 'اعثر على أي قطعة. في أي مكان. بسرعة.',
+    'hero.t1': 'اعثر على أي قطعة.',
+    'hero.t2': 'في أي مكان.',
+    'hero.t3': 'بسرعة.',
     'hero.lead':
-      'أنشئ طلباً مع الصور. المتاجر القريبة ترد بالدرهم. تتحدثان، تتفقان، ثم تؤكدان معاً عند استلام القطعة.',
+      'يربط \u2066AutoParTo\u2069 المشترين بالبائعين المعتمدين للحصول على قطع غيار المركبات فوراً، في أي مكان في العالم. قطع جديدة ومستعملة ونادرة — كلها في مكان واحد.',
     'hero.cta': 'حمّل التطبيق',
     'hero.secondary': 'كيف يعمل',
     'hero.note': 'متوفر على آيفون وأندرويد.',
     'stats.s1v': 'المغرب',
     'stats.s1l': 'سوق القطع',
-    'stats.s2v': 'درهم',
-    'stats.s2l': 'كل الأسعار',
-    'stats.s3v': 'EN · FR · AR',
-    'stats.s3l': 'اللغات',
+    'stats.s2l': 'طلبات حيّة',
+    'stats.s3l': 'بائعون معتمدون',
     'ticker.c1': 'صور مع كل طلب',
     'ticker.c2': 'محادثة على العرض',
     'ticker.c3': 'تأكيد من الطرفين',
@@ -330,10 +324,14 @@ function applyLang(lang) {
   });
   document.title =
     lang === 'ar'
-      ? 'AutoParTo — اعثر على القطعة. متاجر قريبة. عروض حقيقية.'
+      ? 'AutoParTo — اعثر على أي قطعة. في أي مكان. بسرعة.'
       : lang === 'fr'
-        ? 'AutoParTo — Trouve la piece. Magasins proches. Vraies offres.'
-        : 'AutoParTo — Find the part. Nearby stores. Real offers.';
+        ? 'AutoParTo — Toute pièce. Partout. Rapidement.'
+        : 'AutoParTo — Find any part. Anywhere. Fast.';
+  const meta = document.querySelector('meta[name="description"]');
+  if (meta) {
+    meta.setAttribute('content', dict['hero.lead']);
+  }
   document.getElementById('langToggle').textContent = LANG_LABEL[lang];
   document.querySelectorAll('#langMenu button').forEach((btn) => {
     if (btn.dataset.lang === lang) {
