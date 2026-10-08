@@ -815,6 +815,51 @@ html[data-theme='light'] .store-btn {
   border-top: 1px solid var(--border);
 }
 
+.legal {
+  padding: 48px 0 80px;
+  max-width: 760px;
+}
+
+.legal h1 {
+  font-family: Syne, Inter, sans-serif;
+  font-size: clamp(32px, 4.6vw, 52px);
+  letter-spacing: -0.045em;
+  line-height: 1.08;
+  margin: 10px 0 16px;
+}
+
+.legal h2 {
+  font-family: Syne, Inter, sans-serif;
+  font-size: 22px;
+  letter-spacing: -0.03em;
+  margin: 36px 0 12px;
+}
+
+.legal p,
+.legal li {
+  color: var(--muted);
+  font-size: 16px;
+}
+
+.legal ol,
+.legal ul {
+  margin: 0 0 8px 1.25em;
+}
+
+.legal li + li {
+  margin-top: 8px;
+}
+
+.legal a {
+  color: var(--yellow);
+}
+
+.legal .lang-block + .lang-block {
+  margin-top: 28px;
+  padding-top: 8px;
+  border-top: 1px solid var(--border);
+}
+
 .mobile-drawer {
   display: none;
 }
