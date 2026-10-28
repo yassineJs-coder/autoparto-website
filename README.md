@@ -1,5 +1,5 @@
-# AutoPartOut website
+# AutoPartout website
 
-Landing page for AutoPartOut. Static HTML, CSS, and JS — no build step.
+Landing page for AutoPartout. Static HTML, CSS, and JS — no build step.
 
 Live: GitHub Pages from the `main` branch.
