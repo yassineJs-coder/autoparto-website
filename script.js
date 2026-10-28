@@ -1,6 +1,6 @@
 const STORE_URLS = {
-  ios: 'https://apps.apple.com/app/autoparto',
-  android: 'https://play.google.com/store/apps/details?id=com.autoparto.app',
+  ios: 'https://apps.apple.com/app/autopartout',
+  android: 'https://play.google.com/store/apps/details?id=com.autopartout.app',
 };
 
 const COPY = {
@@ -16,7 +16,7 @@ const COPY = {
     'hero.t2': 'Anywhere',
     'hero.t3': 'Fast.',
     'hero.lead':
-      'AutoParTo connects buyers and verified sellers to source vehicle spare parts instantly, anywhere in the world. New, used, rare — all in one place.',
+      'AutoPartOut connects buyers and verified sellers to source vehicle spare parts instantly, anywhere in the world. New, used, rare — all in one place.',
     'hero.cta': 'Download App',
     'hero.secondary': 'How it works →',
     'hero.note': 'Available on iPhone and Android.',
@@ -43,7 +43,7 @@ const COPY = {
     'mock.continue': 'Continue',
     'how.eyebrow': 'The flow',
     'how.title': 'From request to handshake',
-    'how.lead': 'No in-app payment. AutoParTo helps you agree, then both sides confirm the deal.',
+    'how.lead': 'No in-app payment. AutoPartOut helps you agree, then both sides confirm the deal.',
     'how.s1t': 'Post a request',
     'how.s1d': 'Choose the vehicle, describe the part, add photos.',
     'how.s2t': 'Get offers',
@@ -96,12 +96,12 @@ const COPY = {
     'faq.q2': 'How do deals work?',
     'faq.a2': 'A seller sends an offer. You accept or reject it. After accept, buyer confirms receipt and seller confirms payment.',
     'faq.q3': 'Do I pay inside the app?',
-    'faq.a3': 'No. AutoParTo is not a payment app. You agree outside, then both confirm in the app.',
+    'faq.a3': 'No. AutoPartOut is not a payment app. You agree outside, then both confirm in the app.',
     'faq.q4': 'Can I message a store from my profile?',
     'faq.a4': 'Chat opens from a deal, so every conversation stays attached to that offer.',
     'cta.title': 'Get the app and start finding parts',
     'cta.lead': 'Download the app on the App Store or Google Play.',
-    'cta.button': 'Email AutoParTo',
+    'cta.button': 'Email AutoPartOut',
   },
   fr: {
     'nav.how': 'Comment ca marche',
@@ -115,7 +115,7 @@ const COPY = {
     'hero.t2': 'Partout.',
     'hero.t3': 'Rapidement.',
     'hero.lead':
-      'AutoParTo relie acheteurs et vendeurs vérifiés pour trouver des pièces auto, partout dans le monde, tout de suite. Neuves, d\'occasion ou rares — tout au même endroit.',
+      'AutoPartOut relie acheteurs et vendeurs vérifiés pour trouver des pièces auto, partout dans le monde, tout de suite. Neuves, d\'occasion ou rares — tout au même endroit.',
     'hero.cta': "Telecharger l'app",
     'hero.secondary': 'Comment ca marche →',
     'hero.note': 'Dispo sur iPhone et Android.',
@@ -142,7 +142,7 @@ const COPY = {
     'mock.continue': 'Continuer',
     'how.eyebrow': 'Le parcours',
     'how.title': 'De la demande a la confirmation',
-    'how.lead': "Pas de paiement dans l'app. AutoParTo vous aide a tomber d accord, puis les deux confirment.",
+    'how.lead': "Pas de paiement dans l'app. AutoPartOut vous aide a tomber d accord, puis les deux confirment.",
     'how.s1t': 'Publie une demande',
     'how.s1d': 'Choisis le vehicule, decris la piece, ajoute des photos.',
     'how.s2t': 'Recois des offres',
@@ -195,12 +195,12 @@ const COPY = {
     'faq.q2': 'Comment marchent les offres ?',
     'faq.a2': "Un vendeur envoie une offre. Tu acceptes ou tu refuses. Ensuite l acheteur confirme la reception et le vendeur confirme l argent.",
     'faq.q3': "Est-ce que je paie dans l'app ?",
-    'faq.a3': "Non. AutoParTo n est pas une app de paiement. Vous vous mettez d accord dehors, puis vous confirmez dans l'app.",
+    'faq.a3': "Non. AutoPartOut n est pas une app de paiement. Vous vous mettez d accord dehors, puis vous confirmez dans l'app.",
     'faq.q4': 'Puis-je ecrire a un magasin depuis mon profil ?',
     'faq.a4': "Le chat s ouvre depuis une offre, pour que chaque conversation reste attachee a cette piece.",
     'cta.title': "Telecharge l'app et commence a trouver des pieces",
     'cta.lead': 'Sur l App Store et Google Play.',
-    'cta.button': 'Ecrire a AutoParTo',
+    'cta.button': 'Ecrire a AutoPartOut',
   },
   ar: {
     'nav.how': 'كيف يعمل',
@@ -214,7 +214,7 @@ const COPY = {
     'hero.t2': 'في أي مكان.',
     'hero.t3': 'بسرعة.',
     'hero.lead':
-      'يربط \u2066AutoParTo\u2069 المشترين بالبائعين المعتمدين للحصول على قطع غيار المركبات فوراً، في أي مكان في العالم. قطع جديدة ومستعملة ونادرة — كلها في مكان واحد.',
+      'يربط \u2066AutoPartOut\u2069 المشترين بالبائعين المعتمدين للحصول على قطع غيار المركبات فوراً، في أي مكان في العالم. قطع جديدة ومستعملة ونادرة — كلها في مكان واحد.',
     'hero.cta': 'حمّل التطبيق',
     'hero.secondary': 'كيف يعمل',
     'hero.note': 'متوفر على آيفون وأندرويد.',
@@ -241,7 +241,7 @@ const COPY = {
     'mock.continue': 'متابعة',
     'how.eyebrow': 'المسار',
     'how.title': 'من الطلب إلى التأكيد',
-    'how.lead': 'لا يوجد دفع داخل التطبيق. يساعدكم AutoParTo على الاتفاق، ثم يؤكد الطرفان الصفقة.',
+    'how.lead': 'لا يوجد دفع داخل التطبيق. يساعدكم AutoPartOut على الاتفاق، ثم يؤكد الطرفان الصفقة.',
     'how.s1t': 'أنشئ طلباً',
     'how.s1d': 'اختر المركبة، صف القطعة، وأضف الصور.',
     'how.s2t': 'استلم العروض',
@@ -294,19 +294,19 @@ const COPY = {
     'faq.q2': 'كيف تعمل العروض؟',
     'faq.a2': 'يرسل البائع عرضاً. تقبله أو ترفضه. بعد القبول يؤكد المشتري الاستلام ويؤكد البائع الدفع.',
     'faq.q3': 'هل أدفع داخل التطبيق؟',
-    'faq.a3': 'لا. AutoParTo ليس تطبيق دفع. تتفقان خارجاً ثم تؤكدان داخل التطبيق.',
+    'faq.a3': 'لا. AutoPartOut ليس تطبيق دفع. تتفقان خارجاً ثم تؤكدان داخل التطبيق.',
     'faq.q4': 'هل أراسل متجراً من ملفي؟',
     'faq.a4': 'المحادثة تُفتح من العرض، لتبقى كل رسالة مرتبطة بتلك القطعة.',
     'cta.title': 'حمّل التطبيق وابدأ البحث عن القطع',
     'cta.lead': 'على App Store وGoogle Play.',
-    'cta.button': 'راسل AutoParTo',
+    'cta.button': 'راسل AutoPartOut',
   },
 };
 
 const LANG_LABEL = { en: 'EN', fr: 'FR', ar: 'AR' };
 
 function detectLang() {
-  const saved = localStorage.getItem('autoparto_lang');
+  const saved = localStorage.getItem('autopartout_lang') || localStorage.getItem('autoparto_lang');
   if (saved && COPY[saved]) return saved;
   const nav = (navigator.language || 'en').toLowerCase();
   if (nav.startsWith('ar')) return 'ar';
@@ -324,10 +324,10 @@ function applyLang(lang) {
   });
   document.title =
     lang === 'ar'
-      ? 'AutoParTo — اعثر على أي قطعة. في أي مكان. بسرعة.'
+      ? 'AutoPartOut — اعثر على أي قطعة. في أي مكان. بسرعة.'
       : lang === 'fr'
-        ? 'AutoParTo — Toute pièce. Partout. Rapidement.'
-        : 'AutoParTo — Find any part. Anywhere. Fast.';
+        ? 'AutoPartOut — Toute pièce. Partout. Rapidement.'
+        : 'AutoPartOut — Find any part. Anywhere. Fast.';
   const meta = document.querySelector('meta[name="description"]');
   if (meta) {
     meta.setAttribute('content', dict['hero.lead']);
@@ -340,16 +340,16 @@ function applyLang(lang) {
       btn.removeAttribute('aria-current');
     }
   });
-  localStorage.setItem('autoparto_lang', lang);
+  localStorage.setItem('autopartout_lang', lang);
 }
 
 function applyTheme(theme) {
   document.documentElement.dataset.theme = theme;
-  localStorage.setItem('autoparto_theme', theme);
+  localStorage.setItem('autopartout_theme', theme);
 }
 
 const startLang = detectLang();
-const startTheme = localStorage.getItem('autoparto_theme') || 'dark';
+const startTheme = localStorage.getItem('autopartout_theme') || localStorage.getItem('autoparto_theme') || 'dark';
 
 function applyStoreLinks() {
   document.querySelectorAll('.js-store-ios').forEach((link) => {
